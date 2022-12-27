@@ -1,5 +1,5 @@
 # deno-template
-Deno Project Template
+Learn JavaScript using Deno Environment
 
 ## run scripts
 - dev: deno task dev
