@@ -1,4 +1,4 @@
-# deno-template
+# Deno - Learn JavaScript
 Learn JavaScript using Deno Environment
 
 ## run scripts
