@@ -2,6 +2,6 @@
 Deno Project Template
 
 ## run scripts
-- dev: ./run_dev
-- bundle: ./run_bundle
-- compile: ./run_compile
+- dev: deno task dev
+- bundle: deno task bundle
+- compile: deno task compile:windows

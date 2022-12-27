@@ -1,3 +1,6 @@
 
-// import './mods/reactor/test.ts'
-import './mods/uix/test.tsx'
+console.log('Hello World!');
+
+console.log('Ini Athar!');
+
+

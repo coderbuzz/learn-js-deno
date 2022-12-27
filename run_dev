@@ -1,3 +1,0 @@
-#!/bin/zsh
-# deno run --config ./deno.jsonc --allow-all --watch src/mod.ts
-deno run --allow-all --watch src/mod.ts

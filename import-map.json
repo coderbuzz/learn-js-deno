@@ -1,5 +1,0 @@
-{
-  "imports": {
-    "custom/jsx-runtime": "./src/mods/uix/jsx/jsx-runtime.ts"
-  }
-}
