@@ -1,0 +1,3 @@
+#!/bin/zsh
+mkdir deploy
+deno compile --allow-all -o deploy/app --target x86_64-unknown-linux-gnu src/mod.ts

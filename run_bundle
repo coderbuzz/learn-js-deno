@@ -1,0 +1,3 @@
+#!/bin/zsh
+mkdir deploy
+deno bundle src/mod.ts deploy/app.js

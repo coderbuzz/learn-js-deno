@@ -1,0 +1,23 @@
+// this file is not used by default, must be set specifically: deno run --config ./deno.jsonc
+// jsx mode: https://www.typescriptlang.org/docs/handbook/jsx.html
+{
+  "importMap": "./import-map.json",
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      // "dom.iterable",
+      // "dom.asynciterable",
+      "deno.ns"
+    ],
+    "allowJs": true,
+    // "noImplicitThis": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "custom"
+  },
+  "tasks": {
+    "dev": "deno run --allow-all --watch src/mod.ts",
+    "bundle": "mkdir -p deploy && deno bundle src/mod.ts deploy/app.js",
+    "compile:linux": "mkdir -p deploy && deno compile --allow-all -o deploy/app --target x86_64-unknown-linux-gnu src/mod.ts",
+    "compile:mac": "mkdir -p deploy && deno compile --allow-all -o deploy/app --target x86_64-apple-darwin src/mod.ts"
+  }
+}
